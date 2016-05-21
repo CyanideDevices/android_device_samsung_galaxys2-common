@@ -184,9 +184,9 @@ BOARD_CUSTOM_BOOTIMG_MK := device/samsung/galaxys2-common/shbootimg.mk
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 
 # Toolchain Flags
-TARGET_VRTOXIN_ROM := 4.9
-TARGET_NDK_VRTOXIN_ROM := 4.9
-TARGET_VRTOXIN_ARM := 4.8
+TARGET_CYANIDE_ROM := 4.9
+TARGET_NDK_CYANIDE_ROM := 4.9
+TARGET_CYANIDE_ARM := 4.8
 
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/galaxys2-common/BoardConfigVendor.mk
